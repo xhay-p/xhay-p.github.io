@@ -60,7 +60,7 @@ rel.loc.loc-loc.lakeOutflow
 rel.loc.loc-loc.locatedAt
 rel.loc.loc-loc.locatedInAdministrativeUnit
 rel.loc.loc-loc.locatedInArea
-rel.loc.loc-loc.locatedInProtectedArea
+rel.loc.loc-loc.locatedInArea.locatedInProtectedArea
 rel.loc.loc-loc.locatedNearbodyOfWater
 rel.loc.loc-loc.locatedOnAstronomicalBody
 rel.loc.loc-loc.locatedOnStreet
@@ -157,7 +157,7 @@ rel.loc.loc-org.surveyor
 rel.loc.loc-org.surveyor.quantitySurveyor
 rel.loc.loc-org.tenant
 rel.loc.loc-per
-rel.loc.loc-per.archaeologists
+rel.loc.loc-per.archaeologist
 rel.loc.loc-per.architect
 rel.loc.loc-per.bishop
 rel.loc.loc-per.bishop.archBishop

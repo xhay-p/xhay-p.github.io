@@ -59,7 +59,7 @@ rel.loc.loc-loc.lakeOutflow
 rel.loc.loc-loc.locatedAt
 rel.loc.loc-loc.locatedInAdministrativeUnit
 rel.loc.loc-loc.locatedInArea
-rel.loc.loc-loc.locatedInProtectedArea
+rel.loc.loc-loc.locatedInArea.locatedInProtectedArea
 rel.loc.loc-loc.locatedNearbodyOfWater
 rel.loc.loc-loc.locatedOnAstronomicalBody
 rel.loc.loc-loc.locatedOnStreet
