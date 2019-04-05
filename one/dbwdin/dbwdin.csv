@@ -391,6 +391,8 @@ rel.org.org-per.member.bandMember
 rel.org.org-per.member.bandMember.formerBandMember
 rel.org.org-per.member.boardMember
 rel.org.org-per.member.connectedMembers
+rel.org.org-per.member.currentMember
+rel.org.org-per.member.formerMember
 rel.org.org-per.mostCaps
 rel.org.org-per.musicalConductor
 rel.org.org-per.namedAfter

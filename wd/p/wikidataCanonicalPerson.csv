@@ -1,0 +1,71 @@
+affiliation,affiliation
+allegiance,allegiance
+ancestral home,ancestralHome
+archives at,archivesAt
+award received,awardedBy
+chairperson,chairpersonOf
+chief executive officer,chiefExecutiveOfficerOf
+child,child
+commander of,commanderOf
+conflict,battleFoughtAt
+consecrator,consecrator
+country,country
+country for sport,countryForSport
+country of citizenship,countryOfCitizenship
+country of origin,countryOfOrigin
+culture,culture
+director,directorOf
+doctoral advisor,doctoralAdvisor
+doctoral student,doctoralStudent
+drafted by,draftedBy
+educated at,educatedAt
+electoral district,electoralDistrict
+employer,employer
+exhibition history,exhibitionHistory
+family,family
+father,father
+founder,founderOf
+godparent,godparent
+head coach,headCoachOf
+influenced by,influencedBy
+inspired by,inspiredBy
+league,league
+location,locatedAt
+manager,managerOf
+member of,memberOf
+member of political party,memberOfPoliticalParty
+member of sports team,sportsTeam
+movement,memberOfMovement
+military branch,militaryBranch
+mother,mother
+named after,namedAfter
+notable work,notableWork
+owner of,ownerOf
+parliamentary group,memberOfParliament
+participant of,participantOf
+partner,partner
+part of,isPartOf
+permanent resident of,permanentResidentOf
+place of birth,placeOfBirth
+place of burial,placeOfBurial
+place of death,placeOfDeath
+place of detention,placeOfDetention
+position held,positionHeldAt
+professional or sports partner,professionalPartner
+professional or sports partner,sportsPartner
+professorship,professorshipAt
+record label,recordLabel
+relative,relative
+religion,religion
+religious order,religiousOrder
+replaced by,replacedBy
+replaces,replaces
+represented by,agency
+residence,residence
+sibling,sibling
+sponsor,sponsoredBy
+spouse,spouse
+stepparent,stepParent
+student,student
+student of,studentOf
+work location,workLocation
