@@ -221,7 +221,8 @@ rel.org.org-loc.cathedral
 rel.org.org-loc.city
 rel.org.org-loc.country
 rel.org.org-loc.country.countryOfOrigin
-rel.org.org-loc.county
+rel.org.org-loc.administrativeDivision
+rel.org.org-loc.administrativeDivision.county
 rel.org.org-loc.estate
 rel.org.org-loc.foundingLocation
 rel.org.org-loc.garrison
