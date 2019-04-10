@@ -238,9 +238,9 @@ rel.org.org-org.militaryBranch
 rel.org.org-org.namedAfter
 rel.org.org-org.operator
 rel.org.org-org.organization
-rel.org.org-org.organization.childOrganisation
+rel.org.org-org.organization.childOrganization
 rel.org.org-org.organization.foundingOrganization
-rel.org.org-org.organization.parentOrganisation
+rel.org.org-org.organization.parentOrganization
 rel.org.org-org.owner
 rel.org.org-org.ownerOf
 rel.org.org-org.participant
@@ -266,7 +266,7 @@ rel.org.org-per
 rel.org.org-per.alumni
 rel.org.org-per.architect
 rel.org.org-per.associatedWith
-rel.org.org-per.associatedWith.associatedMusicalArtist
+rel.org.org-per.associatedWith.musicalArtist
 rel.org.org-per.captain
 rel.org.org-per.chairperson
 rel.org.org-per.chief
@@ -419,8 +419,7 @@ rel.per.per-per.advisor.academicAdvisor
 rel.per.per-per.advisor.doctoralAdvisor
 rel.per.per-per.appointedBy
 rel.per.per-per.associatedWith
-rel.per.per-per.associatedWith.associate
-rel.per.per-per.associatedWith.associatedMusicalArtist
+rel.per.per-per.associatedWith.musicalArtist
 rel.per.per-per.awardedBy
 rel.per.per-per.beatifiedBy
 rel.per.per-per.canonizedBy

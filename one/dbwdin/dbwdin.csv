@@ -267,7 +267,6 @@ rel.org.org-org.alliance.airlineAlliance
 rel.org.org-org.allies
 rel.org.org-org.archivesAt
 rel.org.org-org.associatedWith
-rel.org.org-org.associatedWith.associations
 rel.org.org-org.associatedWith.band
 rel.org.org-org.associatedWith.family
 rel.org.org-org.associatedWith.federation
@@ -309,9 +308,9 @@ rel.org.org-org.mostTitles
 rel.org.org-org.namedAfter
 rel.org.org-org.operator
 rel.org.org-org.organization
-rel.org.org-org.organization.childOrganisation
+rel.org.org-org.organization.childOrganization
 rel.org.org-org.organization.foundingOrganization
-rel.org.org-org.organization.parentOrganisation
+rel.org.org-org.organization.parentOrganization
 rel.org.org-org.owner
 rel.org.org-org.owner.currentOwner
 rel.org.org-org.owner.previousOwner
@@ -341,8 +340,8 @@ rel.org.org-per.administrator
 rel.org.org-per.alumni
 rel.org.org-per.ambassador
 rel.org.org-per.architect
-rel.org.org-per.associates
-rel.org.org-per.associates.associatedMusicalArtist
+rel.org.org-per.associatedWith
+rel.org.org-per.associatedWith.musicalArtist
 rel.org.org-per.captain
 rel.org.org-per.chairperson
 rel.org.org-per.chief
@@ -540,7 +539,6 @@ rel.per.per-org.militaryBranch
 rel.per.per-org.militaryUnit
 rel.per.per-org.officeholder
 rel.per.per-org.officeholder.commanderOf
-rel.per.per-org.organization
 rel.per.per-org.ownerOf
 rel.per.per-org.participantOf
 rel.per.per-org.positionHeldAt
@@ -574,8 +572,7 @@ rel.per.per-per.advisor.doctoralAdvisor
 rel.per.per-per.agent
 rel.per.per-per.appointedBy
 rel.per.per-per.associatedWith
-rel.per.per-per.associatedWith.associate
-rel.per.per-per.associatedWith.associatedMusicalArtist
+rel.per.per-per.associatedWith.musicalArtist
 rel.per.per-per.awardedBy
 rel.per.per-per.beatifiedBy
 rel.per.per-per.canonizedBy
