@@ -445,8 +445,9 @@ rel.per.per-loc.country.formerCountry
 rel.per.per-loc.country.homeCountry
 rel.per.per-loc.country.nationality
 rel.per.per-loc.disappearedPlace
-rel.per.per-loc.district
-rel.per.per-loc.district.electoralDistrict
+rel.per.per-loc.administrativeDivision
+rel.per.per-loc.administrativeDivision.district
+rel.per.per-loc.administrativeDivision.district.electoralDistrict
 rel.per.per-loc.exhibitionHistory
 rel.per.per-loc.hometown
 rel.per.per-loc.honouredAt
