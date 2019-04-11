@@ -542,7 +542,7 @@ rel.per.per-org.officeholder
 rel.per.per-org.officeholder.commanderOf
 rel.per.per-org.ownerOf
 rel.per.per-org.participantOf
-rel.per.per-org.positionHeldAt
+rel.per.per-org.positionHeld
 rel.per.per-org.practiceAt
 rel.per.per-org.recordLabel
 rel.per.per-org.religion
