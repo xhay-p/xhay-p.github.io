@@ -372,8 +372,6 @@ rel.per.per-org.battleFaughtUnder
 rel.per.per-org.boardMemberOf
 rel.per.per-org.chairpersonOf
 rel.per.per-org.chiefExecutiveOfficerOf
-rel.per.per-org.club
-rel.per.per-org.club.managerOfClub
 rel.per.per-org.coachOf
 rel.per.per-org.coachOf.formerCoachOf
 rel.per.per-org.coachOf.headCoachOf
@@ -390,6 +388,7 @@ rel.per.per-org.family
 rel.per.per-org.founderOf
 rel.per.per-org.isPartOf
 rel.per.per-org.managerOf
+rel.per.per-org.managerOf.managerOfClub
 rel.per.per-org.memberOf
 rel.per.per-org.memberOf.currentMemberOf
 rel.per.per-org.memberOf.memberOfMovement

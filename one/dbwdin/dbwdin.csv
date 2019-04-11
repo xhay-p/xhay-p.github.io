@@ -504,7 +504,6 @@ rel.per.per-org.chiefExecutiveOfficerOf
 rel.per.per-org.club
 rel.per.per-org.club.coachedClub
 rel.per.per-org.club.currentClub
-rel.per.per-org.club.managerOfClub
 rel.per.per-org.club.youthClub
 rel.per.per-org.coachOf
 rel.per.per-org.coachOf.assistCoachOf
@@ -526,6 +525,7 @@ rel.per.per-org.influenced
 rel.per.per-org.influencedBy
 rel.per.per-org.isPartOf
 rel.per.per-org.managerOf
+rel.per.per-org.managerOf.managerOfClub
 rel.per.per-org.memberOf
 rel.per.per-org.memberOf.currentMemberOf
 rel.per.per-org.memberOf.memberOfAssembly
