@@ -51,6 +51,16 @@ mark {
   background-color: #bfdbf7;
 }
 
+/* Subtle author name highlighting */
+.author-name {
+  background-color: #e8f4f8;
+  color: #1f7a8c;
+  font-weight: 600;
+  padding: 2px 4px;
+  border-radius: 3px;
+  border-left: 3px solid #1f7a8c;
+}
+
 
 .btn .fa,
 a.btn .fa {
@@ -440,18 +450,20 @@ iframe {
   margin-top: 0;
   margin-bottom: 8px;
   font-weight: 600;
+  color: #022b3a;
 }
 .skills .skillset .libraries{
   font-family: "Lato", arial, sans-serif;
   font-size: 13px;
   color: #1f7a8c;
-  font-weight: 600;
+  font-weight: 500;
   padding-left: 25px;
+  font-style: italic;
 }
 .skills .skillset .level-title .level-label {
-  color: #bfdbf7;
+  color: #1f7a8c;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Lato", arial, sans-serif;
   position: absolute;
   right: 0;
@@ -513,17 +525,19 @@ iframe {
   margin-top: 0;
   margin-bottom: 8px;
   font-weight: 600;
+  color: #022b3a;
 }
 .education .item .university {
   font-family: "Lato", arial, sans-serif;
   font-size: 13px;
   color: #1f7a8c;
-  font-weight: 600;
+  font-weight: 500;
   padding-left: 25px;
+  font-style: italic;
 }
 .education .item .university .year {
-  color: #bfdbf7;
-  font-weight: 500;
+  color: #1f7a8c;
+  font-weight: normal;
 }
 /* Language Section */
 .languages .item {
