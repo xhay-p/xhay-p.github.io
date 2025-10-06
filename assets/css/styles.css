@@ -228,13 +228,8 @@ mark {
 
 /* Responsive tab styling */
 @media (max-width: 768px) {
-  .custom-tabs > li > a {
-    padding: 10px 12px;
-    font-size: 11px;
-  }
-  
-  .tab-pane {
-    padding: 20px;
+  .custom-tabs {
+    flex-direction: column;
   }
   
   .custom-tabs > li {
@@ -244,8 +239,26 @@ mark {
   }
   
   .custom-tabs > li > a {
+    padding: 12px 16px;
+    font-size: 12px;
     border-radius: 4px;
     margin-bottom: 2px;
+    text-align: center;
+  }
+  
+  .tab-pane {
+    padding: 20px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-tabs > li > a {
+    padding: 10px 12px;
+    font-size: 11px;
+  }
+  
+  .tab-pane {
+    padding: 15px 10px;
   }
 }
 
@@ -340,21 +353,27 @@ iframe {
   margin-bottom: 15px;
   overflow: hidden;
 }
+
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
 .header .btn {
   margin-top: 60px;
   font-weight: bold;
 }
 .header .profile-image {
-  margin-right: 40px;
-  margin-top: 0;
-  width: 180px;
-  height: 180px;
+  margin: 0;
+  width: 220px;
+  height: 220px;
   border-radius: 15px;
   border: 4px solid #1f7a8c;
   box-shadow: 0 4px 15px rgba(2, 43, 58, 0.2);
   object-fit: cover;
   transition: transform 0.3s ease;
-  float: left;
   flex-shrink: 0;
 }
 
@@ -363,11 +382,11 @@ iframe {
   box-shadow: 0 6px 20px rgba(2, 43, 58, 0.3);
 }
 .header .profile-content {
-  margin-top: 0;
-  padding-top: 10px;
-  float: left;
-  width: calc(100% - 220px);
-  margin-left: 0;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
 }
 
 .header .profile-content .name {
@@ -851,36 +870,127 @@ iframe {
 @media (max-width: 767px) {
   .header {
     text-align: center;
+    padding: 20px 0;
   }
+  
+  .profile-wrapper {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  
   .header .profile-image {
-    float: none !important;
-    margin: 0 auto 20px auto;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     border-radius: 15px;
   }
+  
   .header .profile-content {
-    float: none !important;
     text-align: center;
-    margin-top: 0;
-    padding-top: 0;
+    min-width: auto;
     width: 100%;
-    margin-left: 0;
   }
+  
+  .header .profile-content .name {
+    font-size: 28px;
+  }
+  
+  .header .profile-content .desc {
+    font-size: 18px;
+  }
+  
+  .header .profile-content .sub_desc {
+    font-size: 16px;
+  }
+  
+  .contact-item {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  
+  .contact-links {
+    justify-content: center;
+  }
+  
   .header .btn {
-    margin-top: 30px;
-    float: none !important;
+    margin-top: 20px;
   }
+  
   .project-image {
     margin-bottom: 15px;
   }
 }
-/* Small devices (tablets, 768px and up) */
+
+/* Small devices (tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .profile-wrapper {
+    gap: 30px;
+  }
+  
+  .header .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .header .profile-content .name {
+    font-size: 32px;
+  }
+  
+  .header .profile-content .desc {
+    font-size: 20px;
+  }
+  
+  .header .profile-content .sub_desc {
+    font-size: 17px;
+  }
+}
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .profile-wrapper {
+    gap: 40px;
+  }
+  
+  .header .profile-image {
+    width: 220px;
+    height: 220px;
+  }
+}
+
 /* Large devices (large desktops, 1200px and up) */
-/* Ex-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .profile-wrapper {
+    gap: 50px;
+  }
+}
+
+/* Ex-Large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
   .container {
     width: 1360px;
+  }
+  
+  .profile-wrapper {
+    gap: 60px;
+  }
+}
+
+/* Ultra-wide screens */
+@media (min-width: 1600px) {
+  .header .profile-image {
+    width: 240px;
+    height: 240px;
+  }
+  
+  .header .profile-content .name {
+    font-size: 40px;
+  }
+  
+  .header .profile-content .desc {
+    font-size: 24px;
+  }
+  
+  .header .profile-content .sub_desc {
+    font-size: 20px;
   }
 }
