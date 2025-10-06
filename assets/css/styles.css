@@ -61,6 +61,79 @@ mark {
   border-left: 3px solid #1f7a8c;
 }
 
+/* Header Contact Information Styling */
+.contact-info {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #e8f4f8;
+}
+
+.contact-item {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 8px;
+  color: #022b3a;
+  font-size: 14px;
+}
+
+.contact-item i {
+  color: #1f7a8c;
+  margin-right: 8px;
+  width: 16px;
+  text-align: center;
+}
+
+.contact-item a {
+  color: #022b3a;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: #1f7a8c;
+  text-decoration: none;
+}
+
+.contact-links {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  display: inline-block;
+  color: #1f7a8c;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.contact-links a:hover {
+  color: #022b3a;
+  background-color: #e8f4f8;
+  transform: translateY(-2px);
+}
+
+/* Responsive header contact info */
+@media (max-width: 768px) {
+  .contact-item {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  
+  .contact-links {
+    gap: 10px;
+  }
+  
+  .contact-links a {
+    font-size: 16px;
+  }
+}
+
 /* Custom Tab Styling */
 .custom-tabs {
   border-bottom: 2px solid #1f7a8c;
