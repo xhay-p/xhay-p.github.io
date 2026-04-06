@@ -88,7 +88,7 @@
                     </li>
                     <li role="presentation">
                         <a href="#blog" aria-controls="blog" role="tab" data-toggle="tab">
-                            <i class="fa fa-book"></i> Blog & Tutorials
+                            <i class="fa fa-book"></i> Projects, Blogs &amp; Tutorials
                         </a>
                     </li>
                     <li role="presentation">
@@ -244,12 +244,38 @@
                         </section><!--//section-->
                     </div>
 
-                    <!-- Blog & Tutorials Tab -->
+                    <!-- Projects, Blogs & Tutorials Tab -->
                     <div role="tabpanel" class="tab-pane" id="blog">
                         <section class="blog section">
                             <div class="section-inner">
-                                <h2 class="heading">Blog & Tutorials</h2>
+                                <h2 class="heading">Projects, Blogs &amp; Tutorials</h2>
                                 <div class="content">
+
+                                    <h3 class="heading">Projects</h3>
+                                    <div class="item" data-repo="xhay-p/rxie">
+                                        <h3 class="title">
+                                            <a href="https://arxivie.streamlit.app/" target="_blank">
+                                                <i class="fa fa-rocket"></i> rxie — arXiv Trend Analyser
+                                            </a>
+                                        </h3>
+                                        <p class="summary">
+                                            A Streamlit application that pulls recent papers from selected arXiv category listings, then uses Google Gemini (via LangChain) to produce a structured analysis of research themes, topic clusters, and how they relate to configurable research interests.
+                                        </p>
+                                        <div class="meta">
+                                            <span class="label label-theme">Project</span>
+                                            <span class="date"><i class="fa fa-calendar"></i> 2026</span>
+                                            <span class="last-updated" style="display: none;"><i class="fa fa-clock-o"></i> Last updated: <span class="update-date"></span></span>
+                                            <span class="tech"><i class="fa fa-code"></i> Python, Streamlit, LangChain, Gemini</span>
+                                            <span class="tech"><a href="https://arxivie.streamlit.app/" target="_blank"><i class="fa fa-external-link"></i> Live app</a> &middot; <a href="https://github.com/xhay-p/rxie" target="_blank"><i class="fa fa-github"></i> GitHub</a></span>
+                                        </div>
+                                    </div><!--//item-->
+
+                                    <h3 class="heading">Blogs</h3>
+                                    <div id="rss-feeds">
+                                        <!-- Blog posts loaded via jQuery RSS in main.js -->
+                                    </div>
+
+                                    <h3 class="heading">Tutorials</h3>
                                     <div class="item" data-repo="xhay-p/ttPG" data-path="pytorch_basics">
                                         <h3 class="title">
                                             <a href="https://github.com/xhay-p/ttPG/tree/main/pytorch_basics" target="_blank">
@@ -304,10 +330,6 @@
                                         </div>
                                     </div><!--//item-->
 
-                                    <div id="rss-feeds">
-                                        <!-- Additional blog posts will be loaded here via RSS feed -->
-                                        <p><em>More tutorials and blog posts will be added regularly. Stay tuned!</em></p>
-                                    </div><!--//content-->
                                 </div><!--//content-->
                             </div><!--//section-inner-->
                         </section><!--//section-->
